@@ -1,0 +1,27 @@
+{
+    "name" : "glifery/vk-oauth-token-bundle",
+    "description" : "OAuth2 authorization for VK.com app",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Glifery",
+        "email" : "glifery@gmail.com"
+    }],
+    "keywords" : [
+        "vk oauth token"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.3"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Glifery\\VkOAuthTokenBundle" : ""
+        }
+    },
+    "target-dir" : "Glifery/VkOAuthTokenBundle",
+    "repositories" : [{
+    }]
+}
